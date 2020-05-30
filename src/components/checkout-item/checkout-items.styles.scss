@@ -30,5 +30,16 @@
       padding-left: 12px;
       cursor: pointer;
     }
+    .quantity{
+        display: flex;
+
+        .arrow{
+            cursor: pointer;
+        }
+
+        .value{
+            margin: 0 10px;
+        }
+    }
   }
   
