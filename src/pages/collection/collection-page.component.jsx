@@ -7,10 +7,9 @@ import "./collection-page.styles.scss";
 import CollectionItem from "../../components/collection-item/collection-item.component";
 
 const CollectionPage = ( {collection } ) => {
-  console.log('Demo' + collection);
   const { title, items } = collection;
   return (
-    <div className="collection-page">
+    <div className="collection-page">yarn
       <h2 className="title">{title}</h2>
       <div className="items">
         {items.map((item) => (
